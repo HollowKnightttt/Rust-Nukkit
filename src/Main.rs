@@ -13,8 +13,8 @@ const GAMEMODE: &str = "Survival";
 const MAX_PLAYERS: u32 = 20;
 // Harus cocok dengan versi klien yang dituju. Nomor protokol berubah tiap rilis Minecraft;
 // cek https://github.com/Mojang/bedrock-protocol-docs/releases
-const PROTOCOL: u32 = 2168; // 1.26.44
-const GAME_VERSION: &str = "1.26.44";
+const PROTOCOL: u32 = 2225; // 1.26.61
+const GAME_VERSION: &str = "1.26.61";
 
 fn server_guid() -> i64 {
     let nanos = SystemTime::now()
