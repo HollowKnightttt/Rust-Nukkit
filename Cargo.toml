@@ -1,0 +1,8 @@
+[package]
+name = "rust-nukkit"
+version = "0.1.0"
+edition = "2021"
+description = "Minecraft Bedrock Edition server software written in Rust"
+
+[dependencies]
+# Milestone 1 sengaja tanpa dependency. Dependency (tokio, flate2, p384, dll.) ditambahkan mulai milestone 2-3.
